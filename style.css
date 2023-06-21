@@ -1,0 +1,53 @@
+body {
+  background-color: bisque;
+}
+
+header {
+  background-color: aqua;
+  padding: 10px;
+  border-bottom: 5px solid black;
+  font-size: 30;
+}
+
+.links {
+  float: right;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+#activeLink {
+  color: red;
+  text-decoration: line-through;
+}
+
+#myName {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#hiskooloo {
+  width: 400px;
+  padding: 5px;
+  border: 5px dotted dodgerblue;
+  margin: 10px;
+  float: left;
+}
+
+.infoSec {
+  text-align: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#whoiam {
+  font-size: 30;
+  font-family: cursive;
+  font-weight: bold;
+}
+
+#motto {
+  padding: 10px;
+}
