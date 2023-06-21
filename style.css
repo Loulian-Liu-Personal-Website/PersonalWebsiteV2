@@ -95,3 +95,13 @@ p {
   margin-right: 20%;
   border: 5px solid black;
 }
+
+.logo {
+  width: 50;
+}
+
+footer {
+  text-align: center;
+  padding: 5px;
+  background-color: aqua;
+}
