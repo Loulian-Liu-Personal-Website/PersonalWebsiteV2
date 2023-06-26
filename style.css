@@ -2,6 +2,11 @@ body {
   background-color: bisque;
 }
 
+.background {
+  background-image: url(https://images5.alphacoders.com/486/thumb-1920-486950.jpg);
+  background-size: 100%;
+}
+
 .flexbox {
   display: flex;
 }
@@ -35,7 +40,7 @@ a {
 }
 
 #hiskooloo {
-  width: 400px;
+  width: 300px;
   padding: 5px;
   border: 5px dotted dodgerblue;
   margin: 10px;
@@ -45,8 +50,12 @@ a {
   width: 100%;
   flex-wrap: wrap;
   flex-direction: column;
-  align-items: center;
+  align-items: end;
   text-align: center; 
+}
+
+.infoSec div {
+  width: 50%;
 }
 
 #whoiam {
