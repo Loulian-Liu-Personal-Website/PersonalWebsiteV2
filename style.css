@@ -88,7 +88,6 @@ div > img {
   flex-wrap: wrap;
   flex-direction: column;
   text-align: center;
-  
 }
 
 .aboutSec > div {
@@ -119,10 +118,22 @@ p {
 }
 
 .portfolioSec {
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
   text-align: center;
-  margin-left: 20%;
-  margin-right: 20%;
-  border: 5px solid black;
+}
+
+.portfolioSec > div {
+  background-color: rgb(255, 252, 247);
+  width: 55%;
+  border-bottom: 5px solid aliceblue;
+  margin-left: 20px;
+}
+
+.portfolioSec > div > div {
+  width: 100%;
+  align-items: center;
 }
 
 .logo {
