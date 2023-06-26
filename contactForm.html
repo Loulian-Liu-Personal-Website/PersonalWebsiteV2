@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>Contact Form</title>
+
+    <style>
+      .flexbox {
+        display: flex;
+      }
+
+      form {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form class="flexbox">
+      <div>
+        <h2>Please fill out the Contact Form!</h2>
+      </div>
+
+      <div><br /></div>
+
+      <div class="flexbox">
+        <div>
+          <label for="fname">First Name</label><br />
+          <input id="nameInput" type="text" name="fname" placeholder="John" />
+        </div>
+
+        <div>
+          <label for="lname">Last Name</label><br />
+          <input id="nameInput" type="text" name="lname" placeholder="Doe" />
+        </div>
+      </div>
+
+      <div>
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          cols="50"
+          placeholder="Type message here..."
+        ></textarea>
+      </div>
+
+      <div>
+        <label for="email">Email:</label><br />
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="john.doe@example.com"
+        />
+      </div>
+
+      <div>
+        <input type="submit" value="Submit" />
+      </div>
+    </form>
+  </body>
+</html>
